@@ -1,16 +1,18 @@
 {
     "passages": [
       {
-        "text": "Another day of school begins. Today is anything but an ordinary day. An unfamiliar face appears in the classroom. They came into the classroom and sat next to you. What do you do?\n\n[[Say hi and start a conversation]]\n[[Ignore them]]",
+        "text": "Another day of school begins. Today is anything but an ordinary day. An unfamiliar face appears in the classroom. They came into the classroom and sat next to you. \n\n[(1) Say hi and start a conversation]\n[(2) Ignore them]",
         "links": [
           {
-            "name": "Say hi and start a conversation",
-            "link": "Say hi and start a conversation",
+            "name": "1",
+            "link": "(1) Say hi and start a conversation",
+            "effect": 5,
             "pid": "3"
           },
           {
-            "name": "Ignore them",
-            "link": "Ignore them",
+            "name": "2",
+            "link": "(2) Ignore them",
+            "effect": 0,
             "pid": "2"
           }
         ],
@@ -22,20 +24,22 @@
         }
       },
       {
-        "text": "You don't know how to interact with strangers so you decided not to talk to them and kept doing your own thing.\n\n[[Stare at them without saying anything]]\n[[Keep looking at your phone]]",
+        "text": "You don't know how to interact with strangers so you decided not to talk to them and kept doing your own thing.\n\n[(1) Stare at them without saying anything]\n[(2) Keep looking at your phone]",
         "links": [
           {
-            "name": "Stare at them without saying anything",
-            "link": "Stare at them without saying anything",
+            "name": "1",
+            "link": "(1) Stare at them without saying anything",
+            "effect": -200,
             "pid": "5"
           },
           {
-            "name": "Keep looking at your phone",
-            "link": "Keep looking at your phone",
+            "name": "2",
+            "link": "(2) Keep looking at your phone",
+            "effect": -4,
             "pid": "6"
           }
         ],
-        "name": "Ignore them",
+        "name": "(2) Ignore them",
         "pid": "2",
         "position": {
           "x": "889",
@@ -43,25 +47,28 @@
         }
       },
       {
-        "text": "You decided to strike up a conversation with them. What do you talk about?\n\n[[The weather's pretty nice today, huh?]]\n[[I haven't seen you before. Are you new here? I'm Mark, by the way.]]\n[[HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....]] ",
+        "text": "You decided to strike up a conversation with them. What do you talk about?\n\n[(1) The weather's pretty nice today, huh?]\n[(2) I haven't seen you before. Are you new here? I'm Mark, by the way.]\n[(3) HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....] ",
         "links": [
           {
-            "name": "The weather's pretty nice today, huh?",
-            "link": "The weather's pretty nice today, huh?",
+            "name": "1",
+            "link": "(1) The weather's pretty nice today, huh?",
+            "effect": -15,
             "pid": "4"
           },
           {
-            "name": "I haven't seen you before. Are you new here? I'm Mark, by the way.",
-            "link": "I haven't seen you before. Are you new here? I'm Mark, by the way.",
+            "name": "2",
+            "link": "(2) I haven't seen you before. Are you new here? I'm Mark, by the way.",
+            "effect": 10,
             "pid": "9"
           },
           {
-            "name": "HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....",
-            "link": "HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....",
+            "name": "3",
+            "link": "(3) HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....",
+            "effect": -200,
             "pid": "7"
           }
         ],
-        "name": "Say hi and start a conversation",
+        "name": "(1) Say hi and start a conversation",
         "pid": "3",
         "position": {
           "x": "391",
@@ -69,15 +76,16 @@
         }
       },
       {
-        "text": "Really? That's so cliche but okay. You looked out the window. Hmm, it's actually raining and really gloomy. They didn't seem to agree with you but tried to be polite and said \"Umm, yeah.\"\n\n[[Class starts]]",
+        "text": "Really? That's so cliche but okay. You looked out the window. Hmm, it's actually raining and really gloomy. They didn't seem to agree with you but tried to be polite and said \"Umm, yeah.\"\n\n[(1) Class starts]",
         "links": [
           {
-            "name": "Class starts",
-            "link": "Class starts",
+            "name": "1",
+            "link": "(1) Class starts",
+            "effect": 0,
             "pid": "10"
           }
         ],
-        "name": "The weather's pretty nice today, huh?",
+        "name": "(1) The weather's pretty nice today, huh?",
         "pid": "4",
         "position": {
           "x": "465",
@@ -85,15 +93,16 @@
         }
       },
       {
-        "text": "[[That.... was weird?]]",
+        "text": "That.... was weird?",
         "links": [
           {
-            "name": "That.... was weird?",
+            "name": "1",
             "link": "That.... was weird?",
+            "effect": 0,
             "pid": "8"
           }
         ],
-        "name": "Stare at them without saying anything",
+        "name": "(1) Stare at them without saying anything",
         "pid": "5",
         "position": {
           "x": "687",
@@ -101,15 +110,16 @@
         }
       },
       {
-        "text": "They seemed like they wanted to start a conversation with you but you ignored their presence because you don't know how to talk to them.\n\n[[Class starts]] ",
+        "text": "They seemed like they wanted to start a conversation with you but you ignored their presence because you don't know how to talk to them.\n\n[(1) Class starts] ",
         "links": [
           {
-            "name": "Class starts",
-            "link": "Class starts",
+            "name": "1",
+            "link": "(1) Class starts",
+            "effect": 0,
             "pid": "10"
           }
         ],
-        "name": "Keep looking at your phone",
+        "name": "(2) Keep looking at your phone",
         "pid": "6",
         "position": {
           "x": "759",
@@ -117,15 +127,16 @@
         }
       },
       {
-        "text": "[[That.... was weird?]]",
+        "text": "That.... was weird?",
         "links": [
           {
-            "name": "That.... was weird?",
+            "name": "1",
             "link": "That.... was weird?",
+            "effect": 0,
             "pid": "8"
           }
         ],
-        "name": "HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....",
+        "name": "(3) HI MY NAME'S MARK. I AM 16 YEARS OLD. I LIVE 4 BLOCKS AWAY FROM SCHOOL. MY HOBBIES INCLUDE DRAWING, PHOTOGRAPHY AND PLAYING VIDEO GAMES. I HAVE 2 SIBLINGS.....",
         "pid": "7",
         "position": {
           "x": "554",
@@ -142,15 +153,16 @@
         }
       },
       {
-        "text": "They smiled and said, \"Yeah, I just transferred here. I'm Anna.\" \n\n[[Class starts]] ",
+        "text": "They smiled and said, \"Yeah, I just transferred here. I'm Anna.\" \n\n[(1) Class starts] ",
         "links": [
           {
-            "name": "Class starts",
-            "link": "Class starts",
+            "name": "1",
+            "link": "(1) Class starts",
+            "effect": 0,
             "pid": "10"
           }
         ],
-        "name": "I haven't seen you before. Are you new here? I'm Mark, by the way.",
+        "name": "(2) I haven't seen you before. Are you new here? I'm Mark, by the way.",
         "pid": "9",
         "position": {
           "x": "613",
@@ -158,20 +170,22 @@
         }
       },
       {
-        "text": "Your class starts. Your new classmate hasn't got their textbook yet. They could use some help!\n\n[[Offer to share your textbook and read it with them.]]\n[[Ignore]]",
+        "text": "Your class starts. Your new classmate hasn't got their textbook yet. They could use some help!\n\n[(1) Offer to share your textbook and read it with them.]\n[(2) Ignore]",
         "links": [
           {
-            "name": "Offer to share your textbook and read it with them.",
-            "link": "Offer to share your textbook and read it with them.",
+            "name": "1",
+            "link": "(1) Offer to share your textbook and read it with them.",
+            "effect": 14,
             "pid": "11"
           },
           {
-            "name": "Ignore",
-            "link": "Ignore",
+            "name": "2",
+            "link": "(2) Ignore",
+            "effect": -8,
             "pid": "12"
           }
         ],
-        "name": "Class starts",
+        "name": "(1) Class starts",
         "pid": "10",
         "position": {
           "x": "611",
@@ -179,15 +193,16 @@
         }
       },
       {
-        "text": "That was really nice of you! They really appreciate your help. \n\n[[Lunch time]]",
+        "text": "That was really nice of you! They really appreciate your help. \n\n[(1) Lunch time]",
         "links": [
           {
-            "name": "Lunch time",
-            "link": "Lunch time",
+            "name": "1",
+            "link": "(1) Lunch time",
+            "effect": 0,
             "pid": "13"
           }
         ],
-        "name": "Offer to share your textbook and read it with them.",
+        "name": "(1) Offer to share your textbook and read it with them.",
         "pid": "11",
         "position": {
           "x": "535",
@@ -195,15 +210,16 @@
         }
       },
       {
-        "text": "You saw that they didn't have their textbook with them. You didn't offer them any help and kept doing you own work. \n\n[[Lunch time]]",
+        "text": "You saw that they didn't have their textbook with them. You didn't offer them any help and kept doing you own work. \n\n[(1) Lunch time]",
         "links": [
           {
-            "name": "Lunch time",
-            "link": "Lunch time",
+            "name": "1",
+            "link": "(1) Lunch time",
+            "effect": 0,
             "pid": "13"
           }
         ],
-        "name": "Ignore",
+        "name": "(2) Ignore",
         "pid": "12",
         "position": {
           "x": "690",
@@ -211,25 +227,28 @@
         }
       },
       {
-        "text": "Finally, it is lunch break and you are now sitting alone eating and relaxing. Your new classmate walked by with their lunch. They seem to be looking for a place to sit.\n\n[[Offer them to sit with you]]\n[[Pretend you don't see them]]\n[[\"No, you can't sit with me\"]]",
+        "text": "Finally, it is lunch break and you are now sitting alone eating and relaxing. Your new classmate walked by with their lunch. They seem to be looking for a place to sit.\n\n[(1) Offer them to sit with you]\n[(2) Pretend you don't see them]\n[(3) \"No, you can't sit with me\"]",
         "links": [
           {
-            "name": "Offer them to sit with you",
-            "link": "Offer them to sit with you",
+            "name": "1",
+            "link": "(1) Offer them to sit with you",
+            "effect": 20,
             "pid": "14"
           },
           {
-            "name": "Pretend you don't see them",
-            "link": "Pretend you don't see them",
+            "name": "2",
+            "link": "(2) Pretend you don't see them",
+            "effect": -3,
             "pid": "15"
           },
           {
-            "name": "\"No, you can't sit with me\"",
-            "link": "\"No, you can't sit with me\"",
+            "name": "3",
+            "link": "(3) \"No, you can't sit with me\"",
+            "effect": -200,
             "pid": "16"
           }
         ],
-        "name": "Lunch time",
+        "name": "(1) Lunch time",
         "pid": "13",
         "position": {
           "x": "611",
@@ -238,7 +257,7 @@
       },
       {
         "text": "That's really nice of you! They appreciate your offer and sit with you. You guys start talking and seem to be having a good time together!",
-        "name": "Offer them to sit with you",
+        "name": "(1) Offer them to sit with you",
         "pid": "14",
         "position": {
           "x": "500",
@@ -247,7 +266,7 @@
       },
       {
         "text": "You ignored them. They keep looking for somewhere to sit.",
-        "name": "Pretend you don't see them",
+        "name": "(2) Pretend you don't see them",
         "pid": "15",
         "position": {
           "x": "629",
@@ -256,7 +275,7 @@
       },
       {
         "text": "Wow Okay. They didn't ask you anyway. Rude.",
-        "name": "\"No, you can't sit with me\"",
+        "name": "(3) \"No, you can't sit with me\"",
         "pid": "16",
         "position": {
           "x": "760",
